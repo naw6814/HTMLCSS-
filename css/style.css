@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000;
+  padding: 20px 70px;
+}
+
+nav ul li {
+  font-size: 20px;
+  justify-content:space-between;
+  flex-grow: 1;
+  text-align: center;
+}
+
+li + li {
+  border-left: #fff 1px solid;
+} 
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+ #top {
+  height: 600px;
+  background-image: url(../img/top.png);
+  background-size: cover;
+}
+
+.top_wrap h1{
+  color:#fff;
+  font-size: 50px;
+  float: right;
+  margin: 230px 50px;
+}
+
+#service{
+  width: 80%;
+  margin: 100px auto;
+}
+
+.section_title{
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #000;
+}
+
+.service_wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.service_left img{
+  width: 80%;
+  height: auto;
+
+}
+
+.service_right h3 {
+  font-size: 60px;
+  text-shadow:1px 1px #fff,5px 5px #9a5034;
+  padding-bottom: 30px;
+}
+
+.service_right p{
+  line-height: 25px;
+}
+
+.service_right p span {
+  font-weight: 600;
+}
+
+#news {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.news_title{
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #000;
+  
+}
+
+.news_wrap {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+
+.news_wrap p {
+  line-height: 2.5;
+  word-spacing: 8px;
+  border-bottom:solid #d8d4b9 1px;
+  text-align: center;
+}
+
+.news_wrap span {
+  font-weight: 700;
+}
+
+.span{
+  letter-spacing: 3em;
+}
+
+#price{
+  width: 80%;
+  margin: 100px auto;
+}
+
+.price_wrap table {
+  border: double #000 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.price_wrap table tr {
+  border: solid #000 2px;
+  padding: 10px;
+}
+
+
+.price_wrap table th {
+  border: solid #000 2px;
+  padding: 10px;
+  background-color: #d8d4b9;
+}
+
+.price_wrap table td {
+  border: solid #000 2px;
+  padding: 10px;
+}
+
+.d8d4b9 {
+  background-color: #d8d4b9;
+}
+
+#contact {
+  background:rgb(241, 241, 241);
+}
+
+#contact h2{
+  padding: 40px 0;
+}
+
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+
+input,textarea {
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 65%;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 6px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button_submit {
+  text-align: center;
+}
+
+.button {
+  padding: 10px 50px;
+  background-color: #555;
+  color: #fff;
+  border:none;
+  margin: 50px 0;
+  font-weight: bold;
+}
+
+#fotter {
+  background-color: #000;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML&CSS実践</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#service">サービス</a></li>
+        <li><a href="#news">ニュース</a></li>
+        <li><a href="#price">価格</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="top">
+      <div class="top_wrap">
+        <h1>メンズ脱毛サロン！</h1>
+      </div>
+    </section>
+
+    <section id="service">
+      <h2 class="section_title">サービス</h2>
+      <div class="service_wrap">
+       <div class="service_left">
+          <img src="img/service.jpeg" alt="サービス画像">
+      </div>
+      <div class="service_right">
+          <h3>新春キャンペーン</h3>
+          <p>※ 以下条件のすべてを満たした場合にキャンペーンの適応となります。</p>
+          <hr>
+          <p><span>個人契約のお客様であること<br>3回以上通うことができる方<br>成人した男性の方</span></p>
+          </ul>
+      </div>
+     </div>
+    </section>
+    
+    <section id="news">
+      <h2 class="news_title">ニュース</h2>
+      <div class="news_wrap">
+        <p><span>2021/1/1</span> 新年のご挨拶</p>
+        <p><span>2020/12/31</span> 年末年始の店舗休業案内</p>
+        <p><span>2020/8/23</span> お盆休みによる店舗休業案内</p>
+      </div>
+    </section>
+
+    <section id="price">
+      <h2 class="section_title">価格</h2>
+        <div class="price_wrap">
+          <table>
+            <tr>
+              <th>ー</th>
+              <th>プランＡ</th>
+              <th>プランＢ</th>
+            </tr>
+            <tr>
+              <td class="d8d4b9">入会金</td>
+              <td>10万円</td>
+              <td>15万円</td>
+            </tr>
+            <tr>
+              <td class="d8d4b9">料金</td>
+              <td>９００円/月</td>
+              <td>１５００円/月</td>
+            </tr>
+          </table>
+        </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section_title">お問い合わせ</h2>
+      <form class="form" method="post">
+        <div>
+          <i class="far fa-grin"></i>
+          <label for="name">氏名</label>
+          <input type="text" id="name" name="user_name">
+
+          <i class="far fa-envelope"></i>
+          <label for="mail">メール</label>
+          <input type="text" id="mail" name="user_mail">
+
+         <i class="fas fa-phone-alt"></i>
+          <label for="tel">電話番号</label>
+          <input type="text" id="tel" name="user_tel">
+        </div>
+        <div>
+          <i class="fas fa-edit"></i>
+          <label for="msg">内容</label>
+          <textarea id="msg" name="user_msg"></textarea>
+        </div>
+        <div class="button_submit">
+          <button class="button" type="submit">送信</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer id="fotter">
+    <div>
+      <small>© 2021 CODE STAR All right reserved.</small>
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>
